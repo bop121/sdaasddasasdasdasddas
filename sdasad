@@ -225,7 +225,7 @@ local function createOriginialElements()
 		background.Name = "Background"
 		background.Parent = screenGui
 		background.AnchorPoint = Vector2.new(0.5, 0.5)
-		background.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+		background.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		background.BorderSizePixel = 0
 		background.ClipsDescendants = true
 		background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -243,7 +243,7 @@ local function createOriginialElements()
 		
 		heading.Name = "Heading"
 		heading.Parent = background
-		heading.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		heading.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		heading.BorderSizePixel = 0
 		heading.Size = UDim2.new(1, 0, 0.0500000007, 0)
 		heading.AutoButtonColor = false
@@ -278,7 +278,7 @@ local function createOriginialElements()
 
 		plus.Name = "Plus"
 		plus.Parent = buttonHolder
-		plus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		plus.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		plus.BackgroundTransparency = 1.000
 		plus.BorderSizePixel = 0
 		plus.Size = UDim2.new(1, 0, 0.5, 0)
