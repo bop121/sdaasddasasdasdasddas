@@ -278,14 +278,14 @@ local function createOriginialElements()
 
 		plus.Name = "Plus"
 		plus.Parent = buttonHolder
-		plus.BackgroundColor3 = Color3.fromRGB(45, 35, 45)
+		plus.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		plus.BackgroundTransparency = 1.000
 		plus.BorderSizePixel = 0
 		plus.Size = UDim2.new(1, 0, 0.5, 0)
 		plus.AutoButtonColor = false
 		plus.Rotation = 180
 		plus.Image = "http://www.roblox.com/asset/?id=11520007725"
-		plus.ImageColor3 = Color3.fromRGB(45, 35, 45)
+		plus.ImageColor3 = Color3.fromRGB(45, 45, 45)
 		plus.Visible = false
 		plus.ImageTransparency = 1.000
 
@@ -294,20 +294,20 @@ local function createOriginialElements()
 
 		minus.Name = "Minus"
 		minus.Parent = buttonHolder
-		minus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		minus.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		minus.BackgroundTransparency = 1.000
 		minus.BorderSizePixel = 0
 		minus.Size = UDim2.new(1, 0, .5, 0)
 		minus.AutoButtonColor = false
 		minus.Image = "rbxassetid://11520996670"
-		minus.ImageColor3 = Color3.fromRGB(250, 250, 250)
+		minus.ImageColor3 = Color3.fromRGB(45, 45, 45)
 		
 		minusAspect.Name = "MinusAspect"
 		minusAspect.Parent = minus
 		
 		close.Name = "Close"
 		close.Parent = buttonHolder
-		close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		close.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		close.BackgroundTransparency = 1.000
 		close.BorderSizePixel = 0
 		close.Size = UDim2.new(1, 0, 0.5, 0)
@@ -322,7 +322,7 @@ local function createOriginialElements()
 		headingCornerHiding.Name = "HeadingCornerHiding"
 		headingCornerHiding.Parent = heading
 		headingCornerHiding.AnchorPoint = Vector2.new(0, 1)
-		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(40, 41, 52)
+		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(45, 35, 45)
 		headingCornerHiding.BorderSizePixel = 0
 		headingCornerHiding.Position = UDim2.new(0, 0, 1, 0)
 		headingCornerHiding.Size = UDim2.new(1, 0, 0.25, 0)
@@ -330,7 +330,7 @@ local function createOriginialElements()
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(131, 39, 45)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(45, 35, 45)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0.100000001, 0)
