@@ -975,7 +975,7 @@ local function createOriginialElements()
 
 		buttonInnerBackground.Name = "ButtonInnerBackground"
 		buttonInnerBackground.Parent = buttonBackground
-		buttonInnerBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		buttonInnerBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		buttonInnerBackground.BorderSizePixel = 0
 		buttonInnerBackground.Size = UDim2.new(1, 0, 1, 0)
 		buttonInnerBackground.ZIndex = 0
