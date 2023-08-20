@@ -559,7 +559,7 @@ local function createOriginialElements()
 		resizeButton.BorderSizePixel = 0
 		resizeButton.Position = UDim2.new(1, -5, 0.5, 0)
 		resizeButton.Size = UDim2.fromScale(.75, .75)
-		resizeButton.Image = "rbxassetid://11435586663"
+		resizeButton.Image = "rbxassetid://11269835227"
 		
 		resizeButtonAspect.Parent = resizeButton
 
@@ -935,7 +935,7 @@ local function createOriginialElements()
 
 		dropdownText.Name = "DropdownText"
 		dropdownText.Parent = buttonBackground
-		dropdownText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		dropdownText.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		dropdownText.BackgroundTransparency = 1.000
 		dropdownText.BorderSizePixel = 0
 		dropdownText.ClipsDescendants = true
