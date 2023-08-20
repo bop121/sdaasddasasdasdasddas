@@ -258,7 +258,7 @@ local function createOriginialElements()
 		buttonHolder.Name = "ButtonHolder"
 		buttonHolder.Parent = heading
 		buttonHolder.AnchorPoint = Vector2.new(1, 0)
-		buttonHolder.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
+		buttonHolder.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
 		buttonHolder.BackgroundTransparency = 1.000
 		buttonHolder.BorderSizePixel = 0
 		buttonHolder.Position = UDim2.new(1, 0, 0, 0)
@@ -698,7 +698,7 @@ local function createOriginialElements()
 		local toggleImageCorner = Instance.new("UICorner")
 		
 		toggle.Name = "ToggleElement"
-		toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		toggle.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
 		toggle.BackgroundTransparency = 1.000
 		toggle.BorderSizePixel = 0
 		toggle.Size = UDim2.new(1, 0, 0, 14)
