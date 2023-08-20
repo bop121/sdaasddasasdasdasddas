@@ -322,7 +322,7 @@ local function createOriginialElements()
 		headingCornerHiding.Name = "HeadingCornerHiding"
 		headingCornerHiding.Parent = heading
 		headingCornerHiding.AnchorPoint = Vector2.new(0, 1)
-		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(45, 35, 45)
+		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		headingCornerHiding.BorderSizePixel = 0
 		headingCornerHiding.Position = UDim2.new(0, 0, 1, 0)
 		headingCornerHiding.Size = UDim2.new(1, 0, 0.25, 0)
@@ -330,7 +330,7 @@ local function createOriginialElements()
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(45, 35, 45)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0.100000001, 0)
@@ -363,7 +363,7 @@ local function createOriginialElements()
 		tabs.Parent = holder
 		tabs.Active = true
 		tabs.AnchorPoint = Vector2.new(0, 1)
-		tabs.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		tabs.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		tabs.BorderSizePixel = 0
 		tabs.Position = UDim2.new(0, 5, 1, -5)
 		tabs.Size = UDim2.new(0.225, 0, 1, -15)
@@ -382,7 +382,7 @@ local function createOriginialElements()
 		pageLogo.Position = UDim2.new(1, -10, 1, -5)
 		pageLogo.Size = UDim2.new(0.774999976, -25, 1, -15)
 		pageLogo.ZIndex = 0
-		pageLogo.Image = "rbxassetid://11435586663"
+		pageLogo.Image = "rbxassetid://13720914849"
 		pageLogo.ImageColor3 = Color3.fromRGB(109, 110, 119)
 		pageLogo.ImageTransparency = 1
 		pageLogo.Parent = holder
