@@ -435,7 +435,7 @@ local function createOriginialElements()
 		tabImage.BorderSizePixel = 0
 		tabImage.Position = UDim2.new(0.0350000001, 5, 0.5, 0)
 		tabImage.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
-		tabImage.Image = "rbxassetid://10746039695"
+		tabImage.Image = "rbxassetid://12720449353"
 
 		tabAspectRatioConstraint.Parent = tabImage
 
