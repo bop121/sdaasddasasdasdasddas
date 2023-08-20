@@ -722,7 +722,7 @@ local function createOriginialElements()
 
 		boxBackground.Name = "BoxBackground"
 		boxBackground.Parent = toggle
-		boxBackground.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
+		boxBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		boxBackground.BorderSizePixel = 0
 		boxBackground.Size = UDim2.new(1, 0, 1, 0)
 
@@ -817,7 +817,7 @@ local function createOriginialElements()
 
 		circleBackground.Name = "CircleBackground"
 		circleBackground.Parent = button
-		circleBackground.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		circleBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		circleBackground.BorderSizePixel = 0
 		circleBackground.Size = UDim2.new(1, 0, 1, 0)
 
@@ -990,7 +990,7 @@ local function createOriginialElements()
 		elementHolder.Name = "ElementHolder"
 		elementHolder.Parent = dropdown
 		elementHolder.Active = true
-		elementHolder.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		elementHolder.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		elementHolder.BorderSizePixel = 0
 		elementHolder.Position = UDim2.new(0, 0, 0, 18)
 		elementHolder.Size = UDim2.new(0.925000012, 0, 0, 0)
