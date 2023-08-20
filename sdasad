@@ -722,7 +722,7 @@ local function createOriginialElements()
 
 		boxBackground.Name = "BoxBackground"
 		boxBackground.Parent = toggle
-		boxBackground.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		boxBackground.BackgroundColor3 = Color3.fromRGB(125, 13, 237)
 		boxBackground.BorderSizePixel = 0
 		boxBackground.Size = UDim2.new(1, 0, 1, 0)
 
@@ -739,7 +739,7 @@ local function createOriginialElements()
 		innerBox.Name = "InnerBox"
 		innerBox.Parent = boxBackground
 		innerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		innerBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		innerBox.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
 		innerBox.BorderSizePixel = 0
 		innerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		innerBox.Size = UDim2.new(1, 0, 1, 0)
