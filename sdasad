@@ -1436,16 +1436,16 @@ local function createOriginialElements()
 
 		textBoxText.Name = "TextBoxText"
 		textBoxText.Parent = innerBox
-		textBoxText.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
+		textBoxText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		textBoxText.BorderSizePixel = 0
 		textBoxText.ClipsDescendants = true
 		textBoxText.Size = UDim2.new(1, 0, 1, 0)
 		textBoxText.Font = Enum.Font.Gotham
-		textBoxText.PlaceholderColor3 = Color3.fromRGB(36, 35, 37)
+		textBoxText.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
 		textBoxText.PlaceholderText = "Type here..."
 		textBoxText.Text = ""
 		textBoxText.TextXAlignment = Enum.TextXAlignment.Left
-		textBoxText.TextColor3 = Color3.fromRGB(36, 35, 37)
+		textBoxText.TextColor3 = Color3.fromRGB(255, 255, 255)
 		textBoxText.TextSize = 14.000
 		
 		return textBox
