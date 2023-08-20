@@ -322,7 +322,7 @@ local function createOriginialElements()
 		headingCornerHiding.Name = "HeadingCornerHiding"
 		headingCornerHiding.Parent = heading
 		headingCornerHiding.AnchorPoint = Vector2.new(0, 1)
-		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(125, 13, 237)
 		headingCornerHiding.BorderSizePixel = 0
 		headingCornerHiding.Position = UDim2.new(0, 0, 1, 0)
 		headingCornerHiding.Size = UDim2.new(1, 0, 0.25, 0)
@@ -330,7 +330,7 @@ local function createOriginialElements()
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(125, 13, 237)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0.100000001, 0)
@@ -908,7 +908,7 @@ local function createOriginialElements()
 		local elementHolderPadding = Instance.new("UIPadding")
 
 		dropdown.Name = "Dropdown"
-		dropdown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		dropdown.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		dropdown.BackgroundTransparency = 1.000
 		dropdown.BorderSizePixel = 0
 		dropdown.ClipsDescendants = true
@@ -962,7 +962,7 @@ local function createOriginialElements()
 		dropdownImage.Name = "DropdownImage"
 		dropdownImage.Parent = buttonBackground
 		dropdownImage.AnchorPoint = Vector2.new(1, 0)
-		dropdownImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		dropdownImage.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		dropdownImage.BackgroundTransparency = 1.000
 		dropdownImage.BorderSizePixel = 0
 		dropdownImage.Position = UDim2.new(1, -3, 0, 0)
