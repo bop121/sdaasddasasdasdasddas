@@ -762,12 +762,12 @@ local function createOriginialElements()
 		toggleImage.Name = "ToggleImage"
 		toggleImage.Parent = centerBox
 		toggleImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		toggleImage.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
+		toggleImage.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		toggleImage.BackgroundTransparency = 0
 		toggleImage.BorderSizePixel = 0
 		toggleImage.Position = UDim2.new(0.5, 0, 0.5, 0)
 		toggleImage.Image = "rbxassetid://11444348176"
-		toggleImage.ImageColor3 = Color3.fromRGB(31, 31, 43)
+		toggleImage.ImageColor3 = Color3.fromRGB(36, 35, 37)
 		
 		toggleImageCorner.Name = "ToggleImageCorner"
 		toggleImageCorner.CornerRadius = UDim.new(.5,0)
@@ -838,7 +838,7 @@ local function createOriginialElements()
 		innerCircle.Name = "InnerCircle"
 		innerCircle.Parent = circleBackground
 		innerCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-		innerCircle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		innerCircle.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		innerCircle.BorderSizePixel = 0
 		innerCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
 		innerCircle.Size = UDim2.new(1, 0, 1, 0)
@@ -857,7 +857,7 @@ local function createOriginialElements()
 		centerCircle.Name = "CenterCircle"
 		centerCircle.Parent = innerCircle
 		centerCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-		centerCircle.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		centerCircle.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		centerCircle.BorderSizePixel = 0
 		centerCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
 		centerCircle.Size = UDim2.new(1, 0, 1, 0)
@@ -877,7 +877,7 @@ local function createOriginialElements()
 		buttonCircle.Parent = centerCircle
 		buttonCircle.AnchorPoint = Vector2.new(.5,.5)
 		buttonCircle.BorderSizePixel = 0
-		buttonCircle.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
+		buttonCircle.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		buttonCircle.Size = UDim2.new(0, 0, 0, 0)
 		buttonCircle.Position = UDim2.fromScale(.5,.5)
 
