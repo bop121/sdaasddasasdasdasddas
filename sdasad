@@ -400,7 +400,7 @@ local function createOriginialElements()
 		local tabSeperatorUICorner = Instance.new("UICorner")
 
 		tab.Name = "Tab"
-		tab.BackgroundColor3 = Color3.fromRGB(37, 37, 51)
+		tab.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 		tab.BackgroundTransparency = 1.000
 		tab.BorderSizePixel = 0
 		tab.Size = UDim2.new(1, 0, 0, 27.5)
@@ -435,15 +435,15 @@ local function createOriginialElements()
 		tabImage.BorderSizePixel = 0
 		tabImage.Position = UDim2.new(0.0350000001, 5, 0.5, 0)
 		tabImage.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
-		tabImage.Image = "rbxassetid://10746039695"
+		tabImage.Image = "rbxassetid://13720914849"
 
 		tabAspectRatioConstraint.Parent = tabImage
 
 		tabSeperator.Name = "TabSeperator"
 		tabSeperator.Parent = tab
-		tabSeperator.BackgroundColor3 = Color3.fromRGB(255, 6, 4)
+		tabSeperator.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		tabSeperator.BackgroundTransparency = 0
-		tabSeperator.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		tabSeperator.BorderColor3 = Color3.fromRGB(95, 20, 170)
 		tabSeperator.BorderSizePixel = 0
 		tabSeperator.Size = UDim2.new(0, 0, 1, 0)
 
@@ -463,7 +463,7 @@ local function createOriginialElements()
 
 		page.Name = "Page"
 		page.AnchorPoint = Vector2.new(1, 1)
-		page.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		page.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		page.BackgroundTransparency = 1.000
 		page.BorderSizePixel = 0
 		page.Position = UDim2.new(1, -10, 1, -5)
