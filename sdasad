@@ -278,14 +278,14 @@ local function createOriginialElements()
 
 		plus.Name = "Plus"
 		plus.Parent = buttonHolder
-		plus.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		plus.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		plus.BackgroundTransparency = 1.000
 		plus.BorderSizePixel = 0
 		plus.Size = UDim2.new(1, 0, 0.5, 0)
 		plus.AutoButtonColor = false
 		plus.Rotation = 180
 		plus.Image = "http://www.roblox.com/asset/?id=11520007725"
-		plus.ImageColor3 = Color3.fromRGB(45, 45, 45)
+		plus.ImageColor3 = Color3.fromRGB(95, 20, 170)
 		plus.Visible = false
 		plus.ImageTransparency = 1.000
 
@@ -294,20 +294,20 @@ local function createOriginialElements()
 
 		minus.Name = "Minus"
 		minus.Parent = buttonHolder
-		minus.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		minus.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		minus.BackgroundTransparency = 1.000
 		minus.BorderSizePixel = 0
 		minus.Size = UDim2.new(1, 0, .5, 0)
 		minus.AutoButtonColor = false
 		minus.Image = "rbxassetid://11520996670"
-		minus.ImageColor3 = Color3.fromRGB(45, 45, 45)
+		minus.ImageColor3 = Color3.fromRGB(95, 20, 170)
 		
 		minusAspect.Name = "MinusAspect"
 		minusAspect.Parent = minus
 		
 		close.Name = "Close"
 		close.Parent = buttonHolder
-		close.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+		close.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		close.BackgroundTransparency = 1.000
 		close.BorderSizePixel = 0
 		close.Size = UDim2.new(1, 0, 0.5, 0)
@@ -472,7 +472,7 @@ local function createOriginialElements()
 
 		leftScrollingFrame.Name = "LeftScrollingFrame"
 		leftScrollingFrame.Active = true
-		leftScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		leftScrollingFrame.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		leftScrollingFrame.BackgroundTransparency = 1.000
 		leftScrollingFrame.Size = UDim2.new(0.5, -5, 1, 0)
 		leftScrollingFrame.ScrollBarThickness = 0
@@ -487,7 +487,7 @@ local function createOriginialElements()
 		rightScrollingFrame.Name = "RightScrollingFrame"
 		rightScrollingFrame.Active = true
 		rightScrollingFrame.AnchorPoint = Vector2.new(1, 0)
-		rightScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		rightScrollingFrame.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		rightScrollingFrame.BackgroundTransparency = 1.000
 		rightScrollingFrame.Position = UDim2.new(1, 0, 0, 0)
 		rightScrollingFrame.Size = UDim2.new(0.5, -5, 1, 0)
@@ -516,21 +516,21 @@ local function createOriginialElements()
 		local elementHolderPadding = Instance.new("UIPadding")
 
 		section.Name = "Section"
-		section.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		section.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		section.BorderSizePixel = 0
 		section.Size = UDim2.new(1, 0, 0, 200)
 		section.ClipsDescendants = true
 
 		heading.Name = "Heading"
 		heading.Parent = section
-		heading.BackgroundColor3 = Color3.fromRGB(40, 41, 52)
+		heading.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		heading.BorderSizePixel = 0
 		heading.Size = UDim2.new(1, 0, 0, 22)
 
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(163, 33, 38)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0, 2)
@@ -722,7 +722,7 @@ local function createOriginialElements()
 
 		boxBackground.Name = "BoxBackground"
 		boxBackground.Parent = toggle
-		boxBackground.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		boxBackground.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 		boxBackground.BorderSizePixel = 0
 		boxBackground.Size = UDim2.new(1, 0, 1, 0)
 
@@ -762,7 +762,7 @@ local function createOriginialElements()
 		toggleImage.Name = "ToggleImage"
 		toggleImage.Parent = centerBox
 		toggleImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		toggleImage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		toggleImage.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		toggleImage.BackgroundTransparency = 0
 		toggleImage.BorderSizePixel = 0
 		toggleImage.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -877,7 +877,7 @@ local function createOriginialElements()
 		buttonCircle.Parent = centerCircle
 		buttonCircle.AnchorPoint = Vector2.new(.5,.5)
 		buttonCircle.BorderSizePixel = 0
-		buttonCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		buttonCircle.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		buttonCircle.Size = UDim2.new(0, 0, 0, 0)
 		buttonCircle.Position = UDim2.fromScale(.5,.5)
 
@@ -1135,7 +1135,7 @@ local function createOriginialElements()
 
 		slider.Name = "Slider"
 		slider.Parent = sliderInnerBackground
-		slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		slider.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		slider.BorderSizePixel = 0
 		slider.Size = UDim2.new(0, 2, 1, 0)
 
@@ -1864,7 +1864,7 @@ local function createOriginialElements()
 
 		sliderBar.Name = "SliderBar"
 		sliderBar.Parent = valueSlider
-		sliderBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		sliderBar.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		sliderBar.BorderSizePixel = 0
 		sliderBar.Size = UDim2.new(0, 3, 1, 0)
 
