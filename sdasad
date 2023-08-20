@@ -739,7 +739,7 @@ local function createOriginialElements()
 		innerBox.Name = "InnerBox"
 		innerBox.Parent = boxBackground
 		innerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		innerBox.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
+		innerBox.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		innerBox.BorderSizePixel = 0
 		innerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		innerBox.Size = UDim2.new(1, 0, 1, 0)
