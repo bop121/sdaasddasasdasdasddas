@@ -698,7 +698,7 @@ local function createOriginialElements()
 		local toggleImageCorner = Instance.new("UICorner")
 		
 		toggle.Name = "ToggleElement"
-		toggle.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
+		toggle.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		toggle.BackgroundTransparency = 1.000
 		toggle.BorderSizePixel = 0
 		toggle.Size = UDim2.new(1, 0, 0, 14)
@@ -793,7 +793,7 @@ local function createOriginialElements()
 		local buttonCircleCorner = Instance.new("UICorner")
 		
 		button.Name = "Button"
-		button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		button.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		button.BackgroundTransparency = 1.000
 		button.BorderSizePixel = 0
 		button.Size = UDim2.new(1, 0, 0, 14)
