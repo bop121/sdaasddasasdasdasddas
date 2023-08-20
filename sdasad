@@ -322,7 +322,7 @@ local function createOriginialElements()
 		headingCornerHiding.Name = "HeadingCornerHiding"
 		headingCornerHiding.Parent = heading
 		headingCornerHiding.AnchorPoint = Vector2.new(0, 1)
-		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(125, 13, 237)
+		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		headingCornerHiding.BorderSizePixel = 0
 		headingCornerHiding.Position = UDim2.new(0, 0, 1, 0)
 		headingCornerHiding.Size = UDim2.new(1, 0, 0.25, 0)
@@ -330,7 +330,7 @@ local function createOriginialElements()
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(125, 13, 237)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0.100000001, 0)
@@ -754,7 +754,7 @@ local function createOriginialElements()
 		centerBox.Name = "CenterBox"
 		centerBox.Parent = innerBox
 		centerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		centerBox.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		centerBox.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
 		centerBox.BorderSizePixel = 0
 		centerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		centerBox.Size = UDim2.new(1, 0, 1, 0)
@@ -1101,7 +1101,7 @@ local function createOriginialElements()
 		sliderBackground.Name = "SliderBackground"
 		sliderBackground.Parent = sliderElement
 		sliderBackground.AnchorPoint = Vector2.new(0, 1)
-		sliderBackground.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		sliderBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		sliderBackground.BorderSizePixel = 0
 		sliderBackground.Position = UDim2.new(0, 0, 1, 0)
 		sliderBackground.Size = UDim2.new(1, 0, 0.5, -2)
