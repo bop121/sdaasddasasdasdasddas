@@ -382,7 +382,7 @@ local function createOriginialElements()
 		pageLogo.Position = UDim2.new(1, -10, 1, -5)
 		pageLogo.Size = UDim2.new(0.774999976, -25, 1, -15)
 		pageLogo.ZIndex = 0
-		pageLogo.Image = "rbxassetid://11444348176"
+		pageLogo.Image = "rbxassetid://11435586663"
 		pageLogo.ImageColor3 = Color3.fromRGB(109, 110, 119)
 		pageLogo.ImageTransparency = 1
 		pageLogo.Parent = holder
@@ -435,7 +435,7 @@ local function createOriginialElements()
 		tabImage.BorderSizePixel = 0
 		tabImage.Position = UDim2.new(0.0350000001, 5, 0.5, 0)
 		tabImage.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
-		tabImage.Image = "rbxassetid://11444348176"
+		tabImage.Image = "rbxassetid://11435586663"
 
 		tabAspectRatioConstraint.Parent = tabImage
 
@@ -559,7 +559,7 @@ local function createOriginialElements()
 		resizeButton.BorderSizePixel = 0
 		resizeButton.Position = UDim2.new(1, -5, 0.5, 0)
 		resizeButton.Size = UDim2.fromScale(.75, .75)
-		resizeButton.Image = "rbxassetid://11444348176"
+		resizeButton.Image = "rbxassetid://11435586663"
 		
 		resizeButtonAspect.Parent = resizeButton
 
@@ -1892,7 +1892,7 @@ local function createOriginialElements()
 		selector.BorderSizePixel = 0
 		selector.Position = UDim2.new(0.5, 0, 0.5, 0)
 		selector.Size = UDim2.new(0.125, 0, 0.125, 0)
-		selector.Image = "rbxassetid://11444348176"
+		selector.Image = "rbxassetid://11435586663"
 
 		selectorAspect.Name = "SelectorAspect"
 		selectorAspect.Parent = selector
@@ -2080,7 +2080,7 @@ function Library.new(windowName: string, constrainToScreen: boolean?, width: num
 		background.Size = UDim2.fromOffset(background.AbsoluteSize.X, height)
 	end
 
-	holder.PageLogo.Image = backgroundImageId or "rbxassetid://11444348176"
+	holder.PageLogo.Image = backgroundImageId or "rbxassetid://11435586663"
 	background.Position = UDim2.new(0, background.AbsolutePosition.X + background.AbsoluteSize.X / 2, 0, background.AbsolutePosition.Y + background.AbsoluteSize.Y / 2 + 36)
 	background.BackgroundUIAspectRatioConstraint:Destroy()
 	holder.Size = UDim2.new(0,holder.AbsoluteSize.X,0,holder.AbsoluteSize.Y)
@@ -2217,7 +2217,7 @@ function windowHandler:Tab(tabName: string, tabImage: string): table
 	tab.ElementToParentChildren = pageInstance
 	
 	tabInstance.TabText.Text = tabName or "N/A"
-	tabInstance.TabImage.Image = tabImage or "rbxassetid://11444348176" -- Add n/a found image here later on
+	tabInstance.TabImage.Image = tabImage or "rbxassetid://11435586663" -- Add n/a found image here later on
 
 	tabInstance.MouseEnter:Connect(onMouseEnter)
 	tabInstance.MouseLeave:Connect(onMouseLeave)
