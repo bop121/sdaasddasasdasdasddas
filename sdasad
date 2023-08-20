@@ -636,7 +636,7 @@ local function createOriginialElements()
 		local labelBackgroundPadding = Instance.new("UIPadding")
 
 		label.Name = "Label"
-		label.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		label.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		label.BorderSizePixel = 0
 		label.Size = UDim2.new(1, 0, 0, 18)
 
@@ -649,14 +649,14 @@ local function createOriginialElements()
 
 		labelBackground.Name = "LabelBackground"
 		labelBackground.Parent = label
-		labelBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		labelBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		labelBackground.BorderSizePixel = 0
 		labelBackground.Size = UDim2.new(1, 0, 1, 0)
 
 		labelText.Name = "LabelText"
 		labelText.Parent = labelBackground
 		labelText.AnchorPoint = Vector2.new(0.5, 0)
-		labelText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		labelText.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		labelText.BorderSizePixel = 0
 		labelText.Position = UDim2.new(0.5, 0, 0, 0)
 		labelText.Size = UDim2.new(1, 0, 1, 0)
