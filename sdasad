@@ -1389,7 +1389,7 @@ local function createOriginialElements()
 		textBox.AutoButtonColor = false
 		textBox.Font = Enum.Font.SourceSans
 		textBox.Text = ""
-		textBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+		textBox.TextColor3 = Color3.fromRGB(36, 35, 37)
 		textBox.TextSize = 14.000
 
 		textBoxNameText.Name = "TextBoxNameText"
@@ -1407,7 +1407,7 @@ local function createOriginialElements()
 		boxBackground.Name = "BoxBackground"
 		boxBackground.Parent = textBox
 		boxBackground.AnchorPoint = Vector2.new(1, 0)
-		boxBackground.BackgroundColor3 = Color3.fromRGB(59, 59, 71)
+		boxBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		boxBackground.BorderSizePixel = 0
 		boxBackground.Position = UDim2.new(1, 0, 0, 0)
 		boxBackground.Size = UDim2.new(0.400000006, 0, 1, 0)
@@ -1422,7 +1422,7 @@ local function createOriginialElements()
 		innerBox.Name = "InnerBox"
 		innerBox.Parent = boxBackground
 		innerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		innerBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		innerBox.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		innerBox.BorderSizePixel = 0
 		innerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		innerBox.Size = UDim2.new(1, 0, 1, 0)
@@ -1436,16 +1436,16 @@ local function createOriginialElements()
 
 		textBoxText.Name = "TextBoxText"
 		textBoxText.Parent = innerBox
-		textBoxText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		textBoxText.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		textBoxText.BorderSizePixel = 0
 		textBoxText.ClipsDescendants = true
 		textBoxText.Size = UDim2.new(1, 0, 1, 0)
 		textBoxText.Font = Enum.Font.Gotham
-		textBoxText.PlaceholderColor3 = Color3.fromRGB(139, 141, 147)
+		textBoxText.PlaceholderColor3 = Color3.fromRGB(36, 35, 37)
 		textBoxText.PlaceholderText = "Type here..."
 		textBoxText.Text = ""
 		textBoxText.TextXAlignment = Enum.TextXAlignment.Left
-		textBoxText.TextColor3 = Color3.fromRGB(139, 141, 147)
+		textBoxText.TextColor3 = Color3.fromRGB(36, 35, 37)
 		textBoxText.TextSize = 14.000
 		
 		return textBox
