@@ -739,7 +739,7 @@ local function createOriginialElements()
 		innerBox.Name = "InnerBox"
 		innerBox.Parent = boxBackground
 		innerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		innerBox.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
+		innerBox.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		innerBox.BorderSizePixel = 0
 		innerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		innerBox.Size = UDim2.new(1, 0, 1, 0)
@@ -754,7 +754,7 @@ local function createOriginialElements()
 		centerBox.Name = "CenterBox"
 		centerBox.Parent = innerBox
 		centerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		centerBox.BackgroundColor3 = Color3.fromRGB(217, 217, 217)
+		centerBox.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
 		centerBox.BorderSizePixel = 0
 		centerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		centerBox.Size = UDim2.new(1, 0, 1, 0)
