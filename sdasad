@@ -722,7 +722,7 @@ local function createOriginialElements()
 
 		boxBackground.Name = "BoxBackground"
 		boxBackground.Parent = toggle
-		boxBackground.BackgroundColor3 = Color3.fromRGB(36, 35, 37)
+		boxBackground.BackgroundColor3 = Color3.fromRGB(95, 20, 170)
 		boxBackground.BorderSizePixel = 0
 		boxBackground.Size = UDim2.new(1, 0, 1, 0)
 
