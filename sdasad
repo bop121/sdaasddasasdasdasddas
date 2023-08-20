@@ -662,7 +662,7 @@ local function createOriginialElements()
 		labelText.Size = UDim2.new(1, 0, 1, 0)
 		labelText.ZIndex = 2
 		labelText.Font = Enum.Font.GothamMedium
-		labelText.TextColor3 = Color3.fromRGB(255, 255, 255)
+		labelText.TextColor3 = Color3.fromRGB(36, 35, 37)
 		labelText.TextSize = 14.000
 		labelText.TextWrapped = true
 		labelText.TextXAlignment = Enum.TextXAlignment.Left
